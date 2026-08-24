@@ -1,0 +1,38 @@
+{
+  "name": "genpark-luxury-designer-fashion-pop-up-trunk-show-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Luxury Indian designer fashion pop-up trunk show curator and omnichannel high-value couture made-to-order VIP retailing platform.",
+  "author": "genpark",
+  "category": "luxury-fashion",
+  "tags": [
+    "luxury-fashion",
+    "couture-trunk-show",
+    "designer-wear",
+    "vip-clienteling",
+    "purple-style-labs"
+  ],
+  "inputs": {
+    "designer_label": {
+      "type": "string"
+    },
+    "vip_guest_tier": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "trunk_show_id": {
+      "type": "string"
+    },
+    "average_ticket_value_inr": {
+      "type": "number"
+    },
+    "virtual_stylist_3d_draping_available": {
+      "type": "boolean"
+    },
+    "bespoke_made_to_order_cleared": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
